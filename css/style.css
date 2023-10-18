@@ -584,7 +584,7 @@ ul.portfo-main-ul-frst {
     border var(--transition-duration) var(--transition-bazier);
 }
 .modal-window-btn:hover {
-  background-color: var(--button-menu-color);
+  background-color: #404bbf;
   border: none;
 }
 .modal-window-btn:focus {
@@ -595,7 +595,7 @@ ul.portfo-main-ul-frst {
   fill: var(--transition-duration) var(--transition-bazier);
 }
 .modal-window-svg:hover {
-  fill: var(--background-color);
+  fill: #ffffff;
 }
 .modal-window-svg:focus {
   fill: var(--background-color);
