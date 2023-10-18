@@ -594,3 +594,9 @@ ul.portfo-main-ul-frst {
 .modal-window-svg {
   fill: var(--transition-duration) var(--transition-bazier);
 }
+.modal-window-svg:hover {
+  fill: var(--background-color);
+}
+.modal-window-svg:focus {
+  fill: var(--background-color);
+}
