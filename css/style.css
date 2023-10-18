@@ -477,6 +477,10 @@ ul.portfo-main-ul-frst {
   cursor: pointer;
   border: 1px solid var(--custom-border-color);
   border-radius: 4px;
+  transition: color var(--transition-duration) var(--transition-bazier),
+    background-color var(--transition-duration) var(--transition-bazier),
+    border var(--transition-duration) var(--transition-bazier),
+    box-shadow var(--transition-duration) var(--transition-bazier);
 }
 .first-button-portfo:hover {
   color: var(--background-color);
