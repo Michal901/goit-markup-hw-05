@@ -640,11 +640,11 @@ ul.portfo-main-ul-frst {
   border: none;
 }
 .modal-window-svg {
-  fill: var(--transition-duration) var(--transition-bazier);
+  transition: fill var(--transition-duration) var(--transition-bazier);
 }
 .modal-window-svg:hover {
   fill: #ffffff;
 }
 .modal-window-svg:focus {
-  fill: var(--background-color);
+  fill: #ffffff;
 }
