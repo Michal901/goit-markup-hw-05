@@ -567,4 +567,27 @@ ul.portfo-main-ul-frst {
   transition: transform var(--transition-duration) var(--transition-bazier);
 }
 .modal-window-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--custom-border-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color var(--transition-duration)
+      var(--transition-bazier),
+    border var(--transition-duration) var(--transition-bazier);
+}
+.modal-window-btn:hover {
+  background-color: var(--button-menu-color);
+  border: none;
+}
+.modal-window-btn:focus {
+  background-color: var(--button-menu-color);
+  border: none;
 }
