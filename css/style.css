@@ -536,7 +536,7 @@ ul.portfo-main-ul-frst {
 .shadow {
   display: block;
   text-decoration: none;
-  box-shadow: var(--transition-duration) var(--transition-bazier);
+  transition: box-shadow var(--transition-duration) var(--transition-bazier);
 }
 .shadow:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
