@@ -591,3 +591,6 @@ ul.portfo-main-ul-frst {
   background-color: var(--button-menu-color);
   border: none;
 }
+.modal-window-svg {
+  fill: var(--transition-duration) var(--transition-bazier);
+}
