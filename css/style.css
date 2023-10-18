@@ -132,6 +132,13 @@ a.hover-menu-fst:focus {
   background-color: var(--button-menu-color);
   border-radius: 2px;
 }
+.position:focus::after {
+  width: 100%;
+}
+.position:hover::after {
+  width: 100%;
+}
+
 /* !MENU END! */
 
 /*!ADDRESS! */
