@@ -84,6 +84,9 @@ img {
 a.hover-menu-fst {
   color: var(--custom-link-color);
 }
+.hover-menu-fst:nth-of-type(1) {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 a.hover-menu-fst:hover {
   color: var(--button-menu-color);
 }
@@ -110,8 +113,11 @@ a.hover-menu-fst:focus {
 }
 .position {
   position: relative;
-  color: var(--button-menu-color);
   transition: var(--transition-duration) var(--transition-bazier);
+}
+.position:nth-of-type(2),
+.position:nth-of-type(3) {
+  color: var(--button-menu-color);
 }
 .position::after {
   content: "";
