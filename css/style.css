@@ -83,6 +83,7 @@ img {
 }
 a.hover-menu-fst {
   color: var(--custom-link-color);
+  display: flex;
 }
 .address-header .hover-menu-sec {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -113,7 +114,6 @@ a.hover-menu-fst:focus {
 }
 .header-bouth-nav {
   display: flex;
-  align-items: center;
 }
 .position {
   position: relative;
@@ -123,7 +123,8 @@ a.hover-menu-fst:focus {
 .position:nth-of-type(3) {
   color: var(--button-menu-color);
 }
-.position::after {
+
+.link-active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -131,11 +132,6 @@ a.hover-menu-fst:focus {
   height: 4px;
   background-color: var(--button-menu-color);
   border-radius: 2px;
-}
-.position:focus::after {
-  width: 100%;
-}
-.position:hover::after {
   width: 100%;
 }
 
@@ -145,10 +141,10 @@ a.hover-menu-fst:focus {
 .address-header {
   font-style: normal;
   padding: 22px 0 0;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .address-sec-ul {
-  padding-left: 148px;
+  padding-left: 332px;
 }
 .hover-menu-sec {
   line-height: 1.5;
@@ -168,7 +164,7 @@ a.hover-menu-sec:focus {
 /* FOOTER */
 .footer {
   background-color: var(--custom-link-color);
-  padding: 5%;
+  padding: 100px 0;
 }
 .footer-containers {
   display: flex;
