@@ -124,7 +124,7 @@ a.hover-menu-fst:focus {
 .position:nth-of-type(3) {
   color: var(--button-menu-color);
 }
-.link-active:visited {
+.link-active {
   color: var(--button-menu-color);
 }
 .link-active::after {
@@ -136,6 +136,7 @@ a.hover-menu-fst:focus {
   background-color: var(--button-menu-color);
   border-radius: 2px;
   width: 100%;
+  color: var(--button-menu-color);
 }
 
 /* !MENU END! */
