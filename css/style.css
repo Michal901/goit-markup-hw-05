@@ -90,7 +90,6 @@ a.hover-menu-fst {
 }
 .hover-menu-fst:nth-of-type(1) {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--button-menu-color);
 }
 a.hover-menu-fst:hover {
   color: var(--button-menu-color);
@@ -124,7 +123,9 @@ a.hover-menu-fst:focus {
 .position:nth-of-type(3) {
   color: var(--button-menu-color);
 }
-
+.link-active:visited {
+  color: var(--button-menu-color);
+}
 .link-active::after {
   content: "";
   position: absolute;
