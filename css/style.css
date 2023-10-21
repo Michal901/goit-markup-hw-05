@@ -88,7 +88,7 @@ a.hover-menu-fst {
 .address-header .hover-menu-sec {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.main-menu:nth-child(1) {
+.hover-menu-fst .link-active {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--button-menu-color);
 }
