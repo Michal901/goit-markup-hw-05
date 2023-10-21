@@ -106,6 +106,7 @@ a.hover-menu-fst:focus {
 .div-bouth-container {
   display: flex;
   justify-content: center;
+  gap: 332px;
 }
 .container {
   width: 1158px;
@@ -142,9 +143,6 @@ a.hover-menu-fst:focus {
   font-style: normal;
   padding: 22px 0 0;
   /* margin-left: 30px; */
-}
-.address-sec-ul {
-  padding-left: 332px;
 }
 .hover-menu-sec {
   line-height: 1.5;
